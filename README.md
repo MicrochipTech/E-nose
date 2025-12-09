@@ -4,8 +4,6 @@
 # E-nose
 
 
----
-
 # 🌫️ Project Overview
 
 E-nose system capable of differentiating **perfume**, **coffee**, and **clean air** with 98% accuracy
