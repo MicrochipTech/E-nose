@@ -77,9 +77,7 @@ https://studio.edgeimpulse.com/public/661994/live
 - Latency: **~5 seconds**
 - Low overfitting risk (consistent validation performance)
 
-```md
-![Confusion Matrix](images/confusion-matrix.png)
-```
+![Confusion Matrix](results.png)
 
 ---
 
