@@ -46,7 +46,7 @@ These sensors together form a basic but effective VOC fingerprint for classifica
 ## Wiring Diagram (Prototype on Feather M4 Express)
 
 ```md
-![Wiring Diagram](https://raw.githubusercontent.com/MicrochipTech/E-nose/main/diagram.png)
+![Wiring Diagram](diagram.png)
 ```
 
 ## Final MCU Choice: Adafruit Feather M4
