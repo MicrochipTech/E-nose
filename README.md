@@ -45,10 +45,8 @@ These sensors together form a basic but effective VOC fingerprint for classifica
 
 ## Wiring Diagram (Prototype on UNO)
 
-_(Replace this placeholder with an actual image from your repo)_
-
 ```md
-![Wiring Diagram]([diagram.png](https://github.com/MicrochipTech/E-nose/blob/main/diagram.png))
+![Wiring Diagram](https://github.com/MicrochipTech/E-nose/blob/main/diagram.png)
 ```
 
 ## Final MCU Choice: Adafruit Feather M4
