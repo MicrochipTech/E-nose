@@ -43,10 +43,10 @@ The following sensors make up the current gas-detection array:
 
 These sensors together form a basic but effective VOC fingerprint for classification.
 
-## Wiring Diagram (Prototype on UNO)
+## Wiring Diagram (Prototype on Feather M4 Express)
 
 ```md
-![Wiring Diagram](https://github.com/MicrochipTech/E-nose/diagram.png)
+![Wiring Diagram](https://raw.githubusercontent.com/MicrochipTech/E-nose/main/diagram.png)
 ```
 
 ## Final MCU Choice: Adafruit Feather M4
