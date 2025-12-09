@@ -20,9 +20,7 @@
 
 # 🌫️ Project Overview
 
-Hi X,
-
-I hope you're doing well. I wanted to share a project I recently completed—an electronic nose (E-nose) system capable of differentiating **perfume**, **coffee**, and **clean air** with extremely high accuracy. If you're interested, I can present this during one of our SIG meetings.
+E-nose system capable of differentiating **perfume**, **coffee**, and **clean air** with 98% accuracy
 
 This project uses an array of six MQ-series gas sensors combined with a lightweight machine learning model trained using **Edge Impulse**.  
 The model is deployed on the **Adafruit Feather M4 Express**, which supports **TensorFlow Lite Micro** for efficient ARM-based inference.
