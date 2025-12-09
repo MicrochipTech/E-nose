@@ -48,7 +48,7 @@ These sensors together form a basic but effective VOC fingerprint for classifica
 _(Replace this placeholder with an actual image from your repo)_
 
 ```md
-![Wiring Diagram](images/wiring-diagram.png)
+![Wiring Diagram](diagram.png)
 ```
 
 ## Final MCU Choice: Adafruit Feather M4
