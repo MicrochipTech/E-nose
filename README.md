@@ -47,7 +47,7 @@ These sensors together form a basic but effective VOC fingerprint for classifica
 
 ![Wiring Diagram](https://raw.githubusercontent.com/MicrochipTech/E-nose/main/diagram.png)
 
-## Final MCU Choice: Adafruit Feather M4
+## MCU: Adafruit Feather M4 Express
 
 Reasons:
 - ARM Cortex-M4F with hardware floating-point accelerators  
@@ -108,10 +108,10 @@ This script:
 
 # 🧩 Edge Impulse Workflow
 
-### Step 1 — Create a project  
-Go to **studio.edgeimpulse.com** → *Create New Project*
+### Step 1 — Clone the project  
+Go to **[studio.edgeimpulse.com](https://studio.edgeimpulse.com/public/661994/live)** → *Clone Project*
 
-### Step 2 — Import data  
+### Step 2 — Import your own data (Optional)
 **Data Acquisition → Upload Data**  
 Upload CSV files generated from your Python logger.
 
@@ -132,9 +132,6 @@ Settings:
 - Learning rate: **0.001**
 - Train/Test Split: **80/20**
 
-### Step 5 — Live testing  
-**Live Classification → Serial (Feather M4)**
-
 ---
 
 # 📥 Deployment to Adafruit Feather M4
@@ -142,7 +139,7 @@ Settings:
 ### Step 1 — Export Arduino library  
 Go to:
 
-**Deployment → Arduino Library → TensorFlow Lite (int8)**  
+**Deployment → Arduino Library → EON Optimizer (uint8)**  
 Download the ZIP and place it under:
 
 ```
@@ -150,6 +147,7 @@ Documents/Arduino/libraries/
 ```
 
 Restart Arduino IDE.
+Click on Sketch -> Include Zip Library -> Install the library.
 
 ### Step 2 — Use the included inference sketch  
 
@@ -175,28 +173,14 @@ Natural Air: 0.00
 
 ---
 
-# 🔭 Future Directions
-
-- Add environmental compensation (temperature/humidity)
-- Expand sensor suite: BMI, SPG, MISC chemical sensors
-- Miniaturize system with custom PCB
-- Add OLED display for portable operation
-- Real-time continuous learning pipeline
-- Expand classification to more VOC-heavy substances
-
-(From your SIG slide notes)  
-:contentReference[oaicite:2]{index=2}
-
----
-
 
 
 # 📘 License
-MIT License (modify if needed)
+MIT License
 
 ---
 
 # 🙋‍♀️ Contact
-Gokce (Chey) Yavuz  
+gokce.yavuz@microchip.com
 December 2025  
 E-Nose Project  
