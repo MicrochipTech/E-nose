@@ -55,7 +55,7 @@ Reasons:
 - Supported directly by Edge Impulse Arduino libraries  
 - Higher performance vs AVR for ML workloads
 
-![Feather M4](images/featherm4.png)
+![Feather M4](featherm4.png)
 
 ---
 
