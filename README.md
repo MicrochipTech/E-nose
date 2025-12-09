@@ -1,20 +1,6 @@
 # E-nose
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Microchip_Technology_logo.svg/2560px-Microchip_Technology_logo.svg.png" 
-       alt="Microchip Logo" width="420"/>
-</p>
 
-<h1 align="center">E-Nose Classification System<br>Perfume • Coffee • Clean Air</h1>
-
-<p align="center">Machine Learning on Adafruit Feather M4 • TensorFlow Lite Micro • Edge Impulse</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Edge%20Impulse-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/MCU-Adafruit%20Feather%20M4-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Accuracy-98.6%25-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Sensors-MQ%20Series-yellow?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge" />
-</p>
+![Microchip Logo](microchiplogo.png)
 
 ---
 
