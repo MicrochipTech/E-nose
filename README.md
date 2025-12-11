@@ -15,6 +15,10 @@ The model is deployed on the **Adafruit Feather M4 Express**, which supports **T
 
 # Hardware Setup
 
+## Wiring Diagram (Prototype on Feather M4 Express)
+
+![Wiring Diagram](https://raw.githubusercontent.com/MicrochipTech/E-nose/main/diagram.png)
+
 ## Sensor Array Used
 The following sensors make up the current gas-detection array:
 
@@ -28,10 +32,6 @@ The following sensors make up the current gas-detection array:
 | MQ-2 | Smoke / LPG |
 
 These sensors together form a basic but effective VOC fingerprint for classification.
-
-## Wiring Diagram (Prototype on Feather M4 Express)
-
-![Wiring Diagram](https://raw.githubusercontent.com/MicrochipTech/E-nose/main/diagram.png)
 
 ## MCU: Adafruit Feather M4 Express
 
