@@ -4,7 +4,7 @@
 # E-nose
 
 
-# 🌫️ Project Overview
+# Project Overview
 
 E-nose system capable of differentiating **perfume**, **coffee**, and **clean air** with 98% accuracy
 
@@ -13,7 +13,7 @@ The model is deployed on the **Adafruit Feather M4 Express**, which supports **T
 
 ---
 
-# 🔧 Hardware Setup
+# Hardware Setup
 
 ## Sensor Array Used
 The following sensors make up the current gas-detection array:
@@ -45,7 +45,7 @@ Reasons:
 
 ---
 
-# 🧠 Model Training (Edge Impulse)
+# Model Training (Edge Impulse)
 
 Project (public link):  
 https://studio.edgeimpulse.com/public/661994/live
@@ -67,7 +67,7 @@ https://studio.edgeimpulse.com/public/661994/live
 
 ---
 
-# 📡 Data Collection Pipeline
+# Data Collection Pipeline
 
 ### 1. Upload firmware to Arduino for sensor reading  
 Source file:  
@@ -92,7 +92,7 @@ This script:
 
 ---
 
-# 🧩 Edge Impulse Workflow
+# Edge Impulse Workflow
 
 ### Step 1 — Clone the project  
 Go to **[studio.edgeimpulse.com](https://studio.edgeimpulse.com/public/661994/live)** → *Clone Project*
@@ -120,7 +120,7 @@ Settings:
 
 ---
 
-# 📥 Deployment to Adafruit Feather M4
+# Deployment to Adafruit Feather M4
 
 ### Step 1 — Export Arduino library  
 Go to:
@@ -161,12 +161,12 @@ Natural Air: 0.00
 
 
 
-# 📘 License
+# License
 MIT License
 
 ---
 
-# 🙋‍♀️ Contact
+# Contact
 gokce.yavuz@microchip.com
 December 2025  
 E-Nose Project  
